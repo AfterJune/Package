@@ -233,8 +233,8 @@ fi
 if [[ $ftp != '' ]];then
 echo "***开始上传ipa到ftp服务器***"
 ftp -niv<<-!
-open 123.58.173.196 3721
-user s1609 g1BMITiVlo
+open xx.xx.xx.xx xxx
+user name password
 binary
 hash
 cd ${ftp}
