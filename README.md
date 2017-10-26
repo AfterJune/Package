@@ -1,12 +1,12 @@
 
 
-###本脚本主要用于xcode 8.3 之后的iOS项目自动编译打包ipa并上传ftp。其中ftp路径和端口和用户名密码固定写死，有需要的可以自己修改脚本添加配置调整。
+### 本脚本主要用于xcode 8.3 之后的iOS项目自动编译打包ipa并上传ftp。其中ftp路径和端口和用户名密码固定写死，有需要的可以自己修改脚本添加配置调整。
 
-#####使用方式：
+##### 使用方式：
 
-	>一、将Package文件夹放入和.xcodeproj和.xcworkspace文件相同目录
+	> 一、将Package文件夹放入和.xcodeproj和.xcworkspace文件相同目录
 	
-	>二、配置Package/module
+	> 二、配置Package/module
 	   本文件夹主要包含各种环境下的ipa配置
 	     1.config.plist主要是对ipa的一些基本配置
 		appVersion  版本号  1.0.0 不设置则使用xcode中的配置
@@ -31,4 +31,4 @@
 
 	     3.如果profileName不为空则必须在当前目录下放置”$profileName”. mobileprovision 文件
 
-	>三、终端（Terminal）cd到../Package/build.sh  然后./build.sh  或者sudo sh build.sh
+	> 三、终端（Terminal）cd到../Package/build.sh  然后./build.sh  或者sudo sh build.sh
